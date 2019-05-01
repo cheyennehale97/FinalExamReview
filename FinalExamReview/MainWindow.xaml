@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="List of all genres for movies" HorizontalAlignment="Left" Margin="34,23,0,0" VerticalAlignment="Top" Height="25" Width="156"/>
+        <ListBox x:Name="lstGenres" HorizontalAlignment="Left" Height="115" Margin="34,53,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Movie with highest IMDB score:" HorizontalAlignment="Left" Margin="239,23,0,0" VerticalAlignment="Top" Height="29" Width="190"/>
+        <Label x:Name="lblHighestIMDB" Content="" HorizontalAlignment="Left" Margin="239,57,0,0" VerticalAlignment="Top" Height="43" Width="171"/>
+        <Label Content="Movies with 350,000 voted users or more" HorizontalAlignment="Left" Margin="484,26,0,0" VerticalAlignment="Top" Height="26" Width="236"/>
+        <ListBox x:Name="lstVotes" HorizontalAlignment="Left" Height="115" Margin="484,53,0,0" VerticalAlignment="Top" Width="236"/>
+        <Label Content="Movies where Anthony Russo is director" HorizontalAlignment="Left" Margin="34,241,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstAnthonyRusso" HorizontalAlignment="Left" Height="115" Margin="34,272,0,0" VerticalAlignment="Top" Width="222"/>
+        <Label Content="Movies with Robert Downey Jr. as actor 1" HorizontalAlignment="Left" Margin="291,241,0,0" VerticalAlignment="Top" Height="26" Width="246"/>
+        <ListBox x:Name="lstRobertDowney" HorizontalAlignment="Left" Height="115" Margin="291,272,0,0" VerticalAlignment="Top" Width="212"/>
+        <Button x:Name="btnClick" Content="Click me to find the answers to&#xD;&#xA; all these questions&#xD;&#xA;" HorizontalAlignment="Left" Margin="570,272,0,0" VerticalAlignment="Top" Width="185" Height="115" Click="btnClick_Click"/>
+
     </Grid>
 </Window>

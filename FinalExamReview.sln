@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExamReview", "FinalExamReview\FinalExamReview.csproj", "{340661E4-D639-4141-A927-B603422C55D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExamWPF", "FinalExamReview\FinalExamWPF.csproj", "{340661E4-D639-4141-A927-B603422C55D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExamMVC", "FinalExamMVC\FinalExamMVC.csproj", "{D303ABBB-BD1E-4F8F-8F98-A0ABEDF1598C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{340661E4-D639-4141-A927-B603422C55D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{340661E4-D639-4141-A927-B603422C55D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{340661E4-D639-4141-A927-B603422C55D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D303ABBB-BD1E-4F8F-8F98-A0ABEDF1598C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D303ABBB-BD1E-4F8F-8F98-A0ABEDF1598C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D303ABBB-BD1E-4F8F-8F98-A0ABEDF1598C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D303ABBB-BD1E-4F8F-8F98-A0ABEDF1598C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
