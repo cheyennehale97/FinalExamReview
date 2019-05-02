@@ -9,6 +9,7 @@ namespace FinalExamReview
     class Movies
     {
         public string movie_Id { get; set;}
+        public string movie_title { get; set; }
         public string actor_1_name { get; set; }
         public string genre { get; set; }
         public double imdb_score { get; set; }

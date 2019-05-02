@@ -41,18 +41,37 @@ namespace FinalExamReview
                     //Call the class to create a deserialized object.
                     List<Movies> m = JsonConvert.DeserializeObject<List<Movies>>(content);
 
+                    var count = 0;
+                    var total = 0;
+                    var countD = 0;
+                    var totalD = 0;
+                    var score = 0.0;
+                    var name = "";
                     foreach (var movie in m)
                     {
-                        var count = 0;
-                        var total = 0;
-                        count++;
-                        total =+ count;
+                        if(movie.actor_1_name == "Robert Downey Jr.")
+                        {   
+                            count++;
+                            total += count;
+                            
+                        }
+                        if(movie.director_name == "Anthony Russo")
+                        {
+                            countD++;
+                            totalD += count;
+                        }
+                        if(movie.imdb_score > score)
+                        {
+                            score = movie.imdb_score;
+                            name = movie.movie_title;
+                        }
+                     }
+            
+                  lstRobertDowney.Items.Add(total);
+                    lstAnthonyRusso.Items.Add(totalD);
+                    lblHighestIMDB.Content = name + "with " + score;
+                   
 
-                        lstRobertDowney.Items.Add(total);
-                    }
-                  
-                
-                    
                 }
             }
         }
